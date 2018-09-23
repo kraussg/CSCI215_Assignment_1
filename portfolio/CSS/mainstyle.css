@@ -4,7 +4,24 @@
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    background-color: white;
+
+}
+/*.program{
+    padding: 25px;
+    padding-left: 35px;
+}*/
+footer{
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-top: 5px solid #505050;
+}
 .column,
 .columns {
     width: 100%;
@@ -126,7 +143,8 @@
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
-    font-size: 62.5%; }
+    font-size: 62.5%;
+    background-color: #F1F1F1;}
 body {
     font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
@@ -180,7 +198,7 @@ input[type="button"] {
     display: inline-block;
     height: 38px;
     padding: 0 30px;
-    color: #555;
+    color: darkslategray;
     text-align: center;
     font-size: 11px;
     font-weight: 600;
@@ -205,16 +223,17 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
     color: #333;
-    border-color: #888;
-    outline: 0; }
+    border-color: #505050;
+    outline: 0;
+background-color: #ACD1E9}
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
     color: #FFF;
-    background-color: #33C3F0;
-    border-color: #33C3F0; }
+    background-color: #6D929B;
+    border-color: #6D929B; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -226,8 +245,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
     color: #FFF;
-    background-color: #1EAEDB;
-    border-color: #1EAEDB; }
+    background-color: #ACD1E9;
+    border-color: #505050; }
 
 
 /* Forms
